@@ -11,8 +11,7 @@ use JsonSerializable;
 
 /**
  * Class Map
- * @package  Mainto\RpcServer\Util\Types
- * @template T
+ * @package Fwhat\JsonMapper\Types
  */
 class Map implements JsonSerializable, Iterator, ArrayAccess {
 
