@@ -1,9 +1,19 @@
 {
   "name": "fwhat/jsonmapper",
+  "version": "v0.9.0",
+  "license": "MIT",
+  "homepage": "https://github.com/fwhat/jsonmapper",
+  "authors": [
+    {
+      "name": "fwhat",
+      "email": "admin@dowte.com"
+    }
+  ],
   "description": "json to php object",
   "require": {
     "php": "^7.4",
-    "ext-json": "*"
+    "ext-json": "*",
+    "ext-mbstring": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "7.5.1"
@@ -20,5 +30,8 @@
     "psr-4": {
       "Fwhat\\JsonMapper\\Tests\\": "tests"
     }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
   }
 }

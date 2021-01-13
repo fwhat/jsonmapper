@@ -153,7 +153,7 @@ class ClassRef implements PropertiesInterface {
                     $type = $match[1];
                 }
                 $arrayDeepCount = 1;
-                while (ends_with($type, '[]')) {
+                while ($type && ends_with($type, '[]')) {
                     $type = substr($type, 0, -2);
                     $arrayDeepCount ++;
                 }

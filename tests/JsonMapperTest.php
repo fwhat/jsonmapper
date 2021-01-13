@@ -115,7 +115,7 @@ class JsonMapperTest extends TestCase {
         $end = microtime(true);
 
         $speed = $end - $start;
-        echo "count $count simpleObject speed $speed s rate: " . (1 / $speed * $count);
+        echo PHP_EOL . "count $count simpleObject speed $speed s rate: " . (1 / $speed * $count) . PHP_EOL;
         self::assertGreaterThan(150000, 1 / $speed * $count);
     }
 
@@ -131,7 +131,7 @@ class JsonMapperTest extends TestCase {
         $end = microtime(true);
 
         $speed = $end - $start;
-        echo "count $count nestingObject speed $speed s rate: " . (1 / $speed * $count);
+        echo PHP_EOL . "count $count nestingObject speed $speed s rate: " . (1 / $speed * $count) . PHP_EOL;
         self::assertGreaterThan(10000, 1 / $speed * $count);
     }
 
