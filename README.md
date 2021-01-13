@@ -14,6 +14,10 @@
 + 简单对象 可生成 150000w+/s
 + 复杂对象 可生成 1w+/s
 
+### 安装
+
+`composer require fwhat/jsonmapper`
+
 ### 使用示例
 
 + 其他使用示例可参考[单元测试](tests/JsonMapperTest.php)
