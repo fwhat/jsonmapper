@@ -1,0 +1,24 @@
+{
+  "name": "fwhat/jsonmapper",
+  "description": "json to php object",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fwhat\\JsonMapper\\": "src"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fwhat\\JsonMapper\\Tests\\": "tests"
+    }
+  }
+}

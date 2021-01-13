@@ -1,0 +1,211 @@
+{
+  "bool": true,
+  "int": 1,
+  "string": "string",
+  "arrayString": [
+    "arrayString",
+    "arrayString"
+  ],
+  "arrayInt": [
+    "arrayInt",
+    "arrayInt"
+  ],
+  "float": 1.23,
+  "arrayWithDoc": ["arrayWithDoc"],
+  "nestingObject": {
+    "bool": true,
+    "int": 1,
+    "string": "string",
+    "arrayString": [
+      "arrayString",
+      "arrayString"
+    ],
+    "arrayInt": [
+      "arrayInt",
+      "arrayInt"
+    ],
+    "float": 1.23,
+    "arrayWithDoc": ["arrayWithDoc"]
+  },
+  "nestingObjectArrayDoc": [
+    {
+      "bool": true,
+      "int": 1,
+      "string": "string",
+      "arrayString": [
+        "arrayString",
+        "arrayString"
+      ],
+      "arrayInt": [
+        "arrayInt",
+        "arrayInt"
+      ],
+      "float": 1.23,
+      "arrayWithDoc": ["arrayWithDoc"]
+    }
+  ],
+  "nestingObjectArray": [
+    {
+      "bool": true,
+      "int": 1,
+      "string": "string",
+      "arrayString": [
+        "arrayString",
+        "arrayString"
+      ],
+      "arrayInt": [
+        "arrayInt",
+        "arrayInt"
+      ],
+      "float": 1.23,
+      "arrayWithDoc": ["arrayWithDoc"]
+    }
+  ],
+  "nestingObjectArray2": [
+    [
+      {
+        "bool": true,
+        "int": 1,
+        "string": "string",
+        "arrayString": [
+          "arrayString",
+          "arrayString"
+        ],
+        "arrayInt": [
+          "arrayInt",
+          "arrayInt"
+        ],
+        "float": 1.23,
+        "arrayWithDoc": ["arrayWithDoc"]
+      }
+    ]
+  ],
+  "nestingObjectArray3": [
+    [
+      [
+        {
+          "bool": true,
+          "int": 1,
+          "string": "string",
+          "arrayString": [
+            "arrayString",
+            "arrayString"
+          ],
+          "arrayInt": [
+            "arrayInt",
+            "arrayInt"
+          ],
+          "float": 1.23,
+          "arrayWithDoc": ["arrayWithDoc"]
+        }
+      ]
+    ]
+  ],
+  "docArrayObjectArray": [
+    {
+      "bool": true,
+      "int": 1,
+      "string": "string",
+      "arrayString": [
+        "arrayString",
+        "arrayString"
+      ],
+      "arrayInt": [
+        "arrayInt",
+        "arrayInt"
+      ],
+      "float": 1.23,
+      "arrayWithDoc": ["arrayWithDoc"],
+      "nestingObject": {
+        "bool": true,
+        "int": 1,
+        "string": "string",
+        "arrayString": [
+          "arrayString",
+          "arrayString"
+        ],
+        "arrayInt": [
+          "arrayInt",
+          "arrayInt"
+        ],
+        "float": 1.23,
+        "arrayWithDoc": ["arrayWithDoc"]
+      },
+      "nestingObjectArray": [
+        {
+          "bool": true,
+          "int": 1,
+          "string": "string",
+          "arrayString": [
+            "arrayString",
+            "arrayString"
+          ],
+          "arrayInt": [
+            "arrayInt",
+            "arrayInt"
+          ],
+          "float": 1.23,
+          "arrayWithDoc": ["arrayWithDoc"]
+        }
+      ],
+      "nestingObjectArray2": [
+        [
+          {
+            "bool": true,
+            "int": 1,
+            "string": "string",
+            "arrayString": [
+              "arrayString",
+              "arrayString"
+            ],
+            "arrayInt": [
+              "arrayInt",
+              "arrayInt"
+            ],
+            "float": 1.23,
+            "arrayWithDoc": ["arrayWithDoc"]
+          }
+        ]
+      ],
+      "nestingObjectArray3": [
+        [
+          [
+            {
+              "bool": true,
+              "int": 1,
+              "string": "string",
+              "arrayString": [
+                "arrayString",
+                "arrayString"
+              ],
+              "arrayInt": [
+                "arrayInt",
+                "arrayInt"
+              ],
+              "float": 1.23,
+              "arrayWithDoc": ["arrayWithDoc"]
+            }
+          ]
+        ]
+      ],
+      "nestingObjectArrayDoc": [
+        {
+          "bool": true,
+          "int": 1,
+          "string": "string",
+          "arrayString": [
+            "arrayString",
+            "arrayString"
+          ],
+          "arrayInt": [
+            "arrayInt",
+            "arrayInt"
+          ],
+          "float": 1.23,
+          "arrayWithDoc": ["arrayWithDoc"]
+        }
+      ]
+    }
+  ],
+  "nestingObjectArrayNull": null
+}

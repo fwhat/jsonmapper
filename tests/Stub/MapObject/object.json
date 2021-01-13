@@ -1,0 +1,109 @@
+{
+  "bool": true,
+  "int": 1,
+  "string": "string",
+  "arrayString": [
+    "arrayString",
+    "arrayString"
+  ],
+  "arrayInt": [
+    "arrayInt",
+    "arrayInt"
+  ],
+  "float": 1.23,
+  "arrayWithDoc": [
+    "arrayWithDoc"
+  ],
+  "nestingObject": {
+    "bool": true,
+    "int": 1,
+    "string": "string",
+    "arrayString": [
+      "arrayString",
+      "arrayString"
+    ],
+    "arrayInt": [
+      "arrayInt",
+      "arrayInt"
+    ],
+    "float": 1.23,
+    "arrayWithDoc": [
+      "arrayWithDoc"
+    ]
+  },
+  "nestingObjectMap": {
+    "key": {
+      "bool": true,
+      "int": 1,
+      "string": "string",
+      "arrayString": [
+        "arrayString",
+        "arrayString"
+      ],
+      "arrayInt": [
+        "arrayInt",
+        "arrayInt"
+      ],
+      "float": 1.23,
+      "arrayWithDoc": [
+        "arrayWithDoc"
+      ]
+    }
+  },
+  "mapObjectMap": {
+    "key": {
+      "bool": true,
+      "int": 1,
+      "string": "string",
+      "arrayString": [
+        "arrayString",
+        "arrayString"
+      ],
+      "arrayInt": [
+        "arrayInt",
+        "arrayInt"
+      ],
+      "float": 1.23,
+      "arrayWithDoc": [
+        "arrayWithDoc"
+      ],
+      "nestingObject": {
+        "bool": true,
+        "int": 1,
+        "string": "string",
+        "arrayString": [
+          "arrayString",
+          "arrayString"
+        ],
+        "arrayInt": [
+          "arrayInt",
+          "arrayInt"
+        ],
+        "float": 1.23,
+        "arrayWithDoc": [
+          "arrayWithDoc"
+        ]
+      },
+      "nestingObjectMap": {
+        "key": {
+          "bool": true,
+          "int": 1,
+          "string": "string",
+          "arrayString": [
+            "arrayString",
+            "arrayString"
+          ],
+          "arrayInt": [
+            "arrayInt",
+            "arrayInt"
+          ],
+          "float": 1.23,
+          "arrayWithDoc": [
+            "arrayWithDoc"
+          ]
+        }
+      }
+    }
+  },
+  "mapObjectMapNull": null
+}
